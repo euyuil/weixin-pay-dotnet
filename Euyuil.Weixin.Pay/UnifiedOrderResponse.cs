@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Euyuil.Weixin.Pay
 {
-    [Message]
     public class UnifiedOrderResponse
     {
+        [WeixinPayProperty("prepay_id", 64, true)]
+        public string PrepayId { get; set; }
     }
 }

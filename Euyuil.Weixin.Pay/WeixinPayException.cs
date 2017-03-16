@@ -2,7 +2,7 @@
 
 namespace Euyuil.Weixin.Pay
 {
-    internal class MessageAttribute : Attribute
+    public class WeixinPayException : Exception
     {
     }
 }
